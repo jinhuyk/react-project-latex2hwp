@@ -41,7 +41,7 @@ export function stringifyMixed(node: any): string{
   else {
     result += '';
   } 
-
+  result = result.replace('  ',' ')
   return result;
 }
 
